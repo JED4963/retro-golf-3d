@@ -7790,7 +7790,7 @@ function handM(x,y,press){
 // second and gets the others back, so you see them on the course and on the leaderboard. Lowest score wins.
 // Everybody gets the same golfer skills (the quick-round ones), the same wind and the same holes, so it is a fair match.
 // The server is online/server.js. Nothing is typed between players except golfer names (capital letters and numbers).
-const ONLINE_URL=''.replace(/^\/\*.*\*\/$/,'');   // build.js writes the match server's address here (online/server-url.txt)
+const ONLINE_URL='https://golf-3d.onrender.com'.replace(/^\/\*.*\*\/$/,'');   // build.js writes the match server's address here (online/server-url.txt)
 const NET_POSES=['address','putt','celebrate','fist','sad','idle'],NET_KINDS=['full','chip','putt'],NET_CLUBS=['wood','iron','wedge','putter'];
 const Net={
   id:null,key:null,code:null,room:null,err:'',info:'',wait:false,acc:0,fails:0,round:0,fin:false,last:null,oth:new Map(),joining:false,
